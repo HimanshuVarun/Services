@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5627" started-at="2019-09-10T05:52:19Z" finished-at="2019-09-10T05:52:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5627" started-at="2019-09-10T05:52:19Z" finished-at="2019-09-10T05:52:25Z">
+      <class name="C_zentrix_Services.C_zentrix_Services.Service">
+        <test-method status="PASS" signature="before()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="before" is-config="true" duration-ms="4501" started-at="2019-09-10T05:52:19Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="channel_health_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="channel_health_pl" duration-ms="31" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- channel_health_pl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=channel_health_pl status=SUCCESS method=Service.channel_health_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="cz_dialer_data_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="cz_dialer_data_pl" duration-ms="15" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cz_dialer_data_pl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cz_dialer_data_pl status=SUCCESS method=Service.cz_dialer_data_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="czentrix_dialer_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="czentrix_dialer_pl" duration-ms="16" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- czentrix_dialer_pl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="15" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=czentrix_dialer_pl status=SUCCESS method=Service.czentrix_dialer_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="dialer_manager_listen_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="dialer_manager_listen_pl" duration-ms="22" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dialer_manager_listen_pl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dialer_manager_listen_pl status=SUCCESS method=Service.dialer_manager_listen_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="dialer_reporter_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="dialer_reporter_pl" duration-ms="2" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dialer_reporter_pl -->
+        <test-method status="PASS" signature="erp_manager_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="erp_manager_pl" duration-ms="16" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- erp_manager_pl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dialer_reporter_pl status=SUCCESS method=Service.dialer_reporter_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ftp_client_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="ftp_client_pl" duration-ms="0" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftp_client_pl -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=erp_manager_pl status=SUCCESS method=Service.erp_manager_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="endReport" is-config="true" duration-ms="906" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70]" name="getResult" is-config="true" duration-ms="0" started-at="2019-09-10T05:52:24Z" finished-at="2019-09-10T05:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ftp_client_pl status=SUCCESS method=Service.ftp_client_pl()[pri:0, instance:C_zentrix_Services.C_zentrix_Services.Service@78186a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- C_zentrix_Services.C_zentrix_Services.Service -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
